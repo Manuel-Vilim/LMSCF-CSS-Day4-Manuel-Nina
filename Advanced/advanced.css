@@ -1,3 +1,37 @@
+img {
+  width: 100%;
+  max-width: 300px;
+  max-height: 150px; }
 
+.Bilder {
+  display: flex;
+  justify-content: space-around; }
+
+@media screen and (max-width: 1200px) {
+  .Bilder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: red; } }
+@media screen and (max-width: 900px) {
+  .Bilder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: green; } }
+.Pic1 {
+  max-width: 100%; }
+
+.Pic1 #Text1 {
+  display: flex;
+  justify-content: center; }
+
+.Pic1 #IMG1 {
+  display: flex;
+  justify-content: flex-end; }
+
+#Text1 {
+  display: flex;
+  justify-content: center; }
 
 /*# sourceMappingURL=advanced.css.map */
